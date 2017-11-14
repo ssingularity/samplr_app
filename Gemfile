@@ -30,6 +30,7 @@ gem 'jbuilder', '2.4.1'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 gem 'sprockets', '3.6.3'
+gem 'bcrypt', '3.1.11'
 
 group :development, :test do
   # Call 'byebug' anywhere in the codee to stop execution and get a debugger console
