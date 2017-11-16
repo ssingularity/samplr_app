@@ -11,6 +11,7 @@ class UsersController < ApplicationController
   def create
   	@user=User.create(user_params)
   	if @user.save
+      log_in @user
   		flash[:success]="Welcome to the Sample App!"
   		redirect_to @user# 处理成功的情况
   	else 
