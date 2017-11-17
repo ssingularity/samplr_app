@@ -32,6 +32,7 @@ gem 'jbuilder', '2.4.1'
 gem 'sprockets', '3.6.3'
 gem 'bcrypt', '3.1.11'
 gem 'byebug', '9.0.0', platform: :mri
+gem 'faker',    '1.6.3'
 
 group :development, :test do
   # Call 'byebug' anywhere in the codee to stop execution and get a debugger console
