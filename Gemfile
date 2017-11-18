@@ -33,6 +33,8 @@ gem 'sprockets', '3.6.3'
 gem 'bcrypt', '3.1.11'
 gem 'byebug', '9.0.0', platform: :mri
 gem 'faker',    '1.6.3'
+gem 'will_paginate', '3.1.5'
+gem 'bootstrap-will_paginate',  '0.0.10'
 
 group :development, :test do
   # Call 'byebug' anywhere in the codee to stop execution and get a debugger console
